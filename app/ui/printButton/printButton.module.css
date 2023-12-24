@@ -1,0 +1,19 @@
+.container {
+  /* container styles */
+}
+
+@media print {
+  .container table {
+    border-collapse: collapse;
+  }
+
+  .container td,
+  .container th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .container th {
+    background: #ddd;
+  }
+}
